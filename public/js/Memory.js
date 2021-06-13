@@ -140,7 +140,7 @@ class Memory {
             const wrapper = document.createElement('div');
             wrapper.innerText = `${this.cards[i].suit}${this.cards[i].value}`;
             wrapper.id = `${this.cards[i].suit}${this.cards[i].value}`;
-            wrapper.className = 'flex justify-center p-2 bg-white rounded-lg';
+            wrapper.className = 'flex justify-center p-2 bg-white rounded-lg text-white';
 
             container.appendChild(wrapper);
 
