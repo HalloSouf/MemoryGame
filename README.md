@@ -1,2 +1,2 @@
 # MemoryGame
-MemoryGame made for Software Quality (school)
+MemoryGame made for Software Quality school course
