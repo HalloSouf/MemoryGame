@@ -14,6 +14,7 @@ const run = () => {
     const app = new HTTPServer().app;
 
     app.listen(process.env.APP_PORT, () => {
+        console.log('SHEESH');
         console.log(`HTTP // Listening to ${process.env.APP_PORT}`);
     });
 
